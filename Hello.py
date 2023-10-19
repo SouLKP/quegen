@@ -23,7 +23,7 @@ def run():
         page_title="Hello",
         page_icon="👋",
     )
-    st.write("# Welcome to KP's Streamlit! 👋 ")
+    st.write("# Welcome to KPs Streamlit! 👋 ")
 
     st.sidebar.success("Select a demo above.")
 
