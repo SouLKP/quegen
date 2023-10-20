@@ -15,6 +15,9 @@
 import streamlit as st
 import streamlit as st
 
+with st.sidebar:
+        l1 = []
+        st.title("Sectional Details")
 def run():
     if 'my_dict' not in st.session_state:
         st.session_state.my_dict = {}
