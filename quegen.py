@@ -14,7 +14,7 @@
 
 import streamlit as st
 import streamlit as st
-from jemo import *  
+# from jemo import *  
 from streamlit.logger import get_logger
 
 LOGGER = get_logger(__name__)
@@ -85,8 +85,9 @@ def run():
         op = st.button("Generate question paper",type='primary',key='dif2')
         if op: 
             input_dict = st.session_state.my_dict
-            question_paper_result = generate_questions(input_dict)
+            # question_paper_result = generate_questions(input_dict)
             st.write("Generate Question Paper")
+            question_paper_result = "Dio dio"
             st.write(question_paper_result)
             if st.download_button("Download as Text File",data=question_paper_result,type='primary',key='non'): 
                 st.success("Text file downloaded!")
