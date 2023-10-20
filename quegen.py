@@ -16,10 +16,6 @@ import streamlit as st
 import streamlit as st
 
 def run():
-    st.set_page_config(
-        page_title="Hello",
-        page_icon="👋",
-        )
     if 'my_dict' not in st.session_state:
         st.session_state.my_dict = {}
 
